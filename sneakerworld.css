@@ -1,0 +1,89 @@
+body { 
+ background-color: white;
+}
+ #login {
+ text-align: right;
+padding: 20px 30px;
+
+
+ }
+
+#mybox{ 
+   background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)),url("IMAGES/yeezybackground2.jpg");
+     background-size:cover;
+      background-position:cover; 
+       height:55vh;
+      top:auto;
+}
+#myboxtxt {
+	position:absolute;
+	 width:900px;
+	  left:23%;
+	   top:25%;
+
+}
+
+#mybox .btn {
+	display:inline-block;
+	 padding:13px 36px;
+	  font-family:'Lato', Sans-Serif;
+	   font-weight:400;
+	    text-decoration:none;
+	     border-radius:400px;
+        height:15px;
+	}
+.btnfull:link, .btnfull:visited {
+	background-color:black;
+	border:0px solid #e67e22;
+	color:#fff;
+	transition:background-color 0.2s, border 0.2s, color 0.2s;
+	margin-right:15px;
+	margin-left:15px;
+	}
+.btnempty:link, .btnempty:visited {
+	border:1px solid ##ff0000;
+	color: white;
+	}
+.btnfull:hover, .btnfull:active{
+	background-color:#b05d14;
+	border:1px solid #b05d14;
+	}	
+.btnempty:hover, .btnempty:active {
+	background-color:black;
+	border:1px solid #b05d14;
+	color:#fff;
+	}
+
+
+
+.column {
+	position:static;
+  float: right;
+  width: 20.33%;
+  padding: 40px;
+}
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+a { 
+  color:black;
+   }
+   p { 
+      text-align: center;
+      font:sans-serif;
+      opacity: 0.5;
+      font-family: sans-serif;
+    }
+    h2 {
+    	text-align: center;
+    	opacity: 0.5;
+    	color: black;
+      font-family: 'Oswald', sans-serif; 
+    }
+
+
+    
+
+ 

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SNEAKERWORLD</title>
+   <link rel="stylesheet" href="sneakerworld.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+
+<style>
+
+ body {
+
+ background-color: black;
+}
+
+#mybox{ 
+   background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9)),
+   url("IMAGES/aboutus1.jpg");
+     background-size:cover;
+      background-position:cover; 
+       height:55vh;
+      top:auto;
+}
+
+#myboxtxt {
+  position:absolute;
+   width:900px;
+    left:23%;
+     top:25%;
+     padding: 20px 30px;
+}
+
+#mybox .btn {
+  display:inline-block;
+   padding:10px 20px;
+    font-family:'Lato', Sans-Serif;
+     font-weight:400;
+      text-decoration:none;
+       border-radius:400px;
+        height:15px;
+  }
+
+h1 {
+  font-size:500%;
+  color: white;
+   text-transform: uppercase;
+    position: absolute;
+    top: -80%; left: 0;
+    width: 90px;
+    margin-top: -25px;
+    letter-spacing:2px;
+      font-weight:300;
+     font-family: 'Oswald', sans-serif;
+}
+
+h3 {
+  font-size:300%;
+  color: white;
+   text-transform: uppercase;
+    position: absolute;
+    top: -80%; left: 57%;
+    width: 90px;
+    margin-top: 10px;
+    letter-spacing:2px;
+      font-weight:300;
+     font-family: 'Oswald', sans-serif;
+}
+h2 {
+  font-family:  sans-serif;
+ font-size:100%;
+color:grey;
+text-align: center;
+
+}
+.navbar {
+  overflow: hidden;
+  background-color: black;
+}
+
+
+
+.fixed-bg4 {
+
+  background-color: black;
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fixed-bg3 {
+
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9)),url("IMAGES/juice.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.fixed-bg2 {
+
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9)),url("IMAGES/nba.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+form {
+  border: 4px solid #f1f1f1;
+}
+.container {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+input[type=checkbox] {
+  margin-top: 16px;
+
+}
+
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 2px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+
+}
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #b05d14;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+</style>
+</head>
+<body>
+
+ <div id="mybox">
+  <div id="login">
+      <a href="login.html" class="btn btnempty">LOG IN </a>
+  </div>
+    <div id="myboxtxt">
+      <a href="index.html" class="btn btnempty">HOME</a>
+      <a href="adidas.html" class="btn btnempty">ADIDAS</a>
+      <a href="airjordans.html" class="btn btnempty">AIR JORDANS</a>
+      <a href="yeezy.html" class="btn btnempty">YEEZY</a>
+      <a href="nike.html" class="btn btnempty">NIKE</a>
+       <a href="aboutus.html" class="btn btnfull">ABOUT US</a>
+    </div>
+ </div>
+<div class="fixed-bg4">
+
+      <h2 style="font-size:30px;">OUR HISTORY</h2>
+           <h2 style="font-size:30px;">Established in New York City over fifteen years ago, Sneakerworld revolutionized sneaker retail as the original consignment store for rare shoes. Carrying the rarest exclusives and collectible sneakers, Sneakerworld has evolved from a one-stop sneaker destination,</h2>
+ </div>
+<div class="fixed-bg3">
+</div>
+<div class="fixed-bg4">
+  <div class="container">
+  <form action="action_page.php">
+  <h2 style="font-size:40px;">Contact us </h2>
+    
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    
+    <select id="country" name="country">
+      <option value="australia">Cyprus</option>
+      <option value="canada">Greece</option>
+      <option value="usa">Bulgaria</option>
+    </select>
+
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+</div>
+<div class="fixed-bg2">
+  </div>
+<div class="fixed-bg4">
+</div>
+</body>
+</html>
+

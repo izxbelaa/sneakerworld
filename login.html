@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SNEAKERWORLD</title>
+ <link rel="stylesheet" href="sneakerworld.css">
+ <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+ <meta charset="UTF-8">
+<style>
+  html {
+    overflow: hidden;
+    height: 100%;
+}
+
+  body {
+ height: 100%;
+    overflow: auto;
+  background: linear-gradient(90deg, grey, white, grey);
+}
+#mybox{ 
+   background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9)),
+   url("IMAGES/aboutus1.jpg");
+     background-size:cover;
+      background-position:cover; 
+       height:55vh;
+      top:auto;
+}
+
+#myboxtxt {
+  position:relative;
+   width:900px;
+    left:23%;
+     top:25%;
+     padding: 20px 30px;
+}
+
+#mybox .btn {
+  display:inline-block;
+   padding:10px 20px;
+    font-family:'Lato', Sans-Serif;
+     font-weight:400;
+      text-decoration:none;
+       border-radius:400px;
+        height:15px;
+  }
+.btnfull:link, .btnfull:visited {
+  background-color:black;
+  border:0px solid #e67e22;
+  color:#fff;
+  transition:background-color 0.2s, border 0.2s, color 0.2s;
+  margin-right:15px;
+  margin-left:15px;
+  }
+.btnempty:link, .btnempty:visited {
+  border:1px solid ##ff0000;
+  color: white;
+  }
+.btnfull:hover, .btnfull:active{
+  background-color:#b05d14;
+  border:1px solid #b05d14;
+  } 
+.btnempty:hover, .btnempty:active {
+  background-color:black;
+  border:1px solid #b05d14;
+  color:#fff;
+  }
+
+h3 {
+  font-size:300%;
+  color: white;
+   text-transform: uppercase;
+    position: absolute;
+    top: -80%; left: 57%;
+    width: 90px;
+    margin-top: 10px;
+    letter-spacing:2px;
+      font-weight:300;
+     font-family: 'Oswald', sans-serif;
+}
+h2 {
+  font-family:  sans-serif;
+ font-size:100%;
+color:grey;
+text-align: center;
+
+}
+
+.fixed-bg3 {
+
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9)),url("IMAGES/popsmoke.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fixed-bg {
+  background-image: url("IMAGES/back1.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+form {
+  border: 4px solid #f1f1f1;
+}
+.container {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+.container {
+  padding: 26px;
+}
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+
+}
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+.registerbtn {
+  background-color: black;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 5px;
+}
+
+.registerbtn:hover {
+  opacity:1;
+  background-color: #b05d14;
+
+}
+
+}
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+ b { 
+ font-family: Arial, Helvetica, sans-serif;
+ }
+
+
+</style>
+</head>
+<body>
+  <div id="mybox"> 
+        <div id="login">
+<a href="login.html" class="btn btnfull">LOG IN </a>
+  </div>
+    <div id="myboxtxt">
+      
+      
+      <a href="index.html" class="btn btnempty">HOME</a>
+      <a href="adidas.html" class="btn btnempty">ADIDAS</a>
+      <a href="airjordans.html" class="btn btnempty">AIR JORDANS</a>
+      <a href="yeezy.html" class="btn btnempty">YEEZY</a>
+      <a href="nike.html" class="btn btnempty">NIKE</a>
+      <a href="aboutus.html" class="btn btnempty">ABOUT US</a>
+ 
+  </div> 
+</div>
+  </div>
+  </div> 
+ </div> 
+
+
+<div class="fixed-bg">
+<form action="action_page.php">
+  <div class="container">
+    <h2  style="font-size:30px;">Register</h2>
+    <hr>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    <hr>
+
+    <p>By creating an account you agree to our Terms & Privacy</a>.</p>
+    <button type="submit" class="registerbtn">Register</button>
+  </div>
+
+  <div class="container signin">
+    <p>Already have an account? <a href="#">Sign in</a>.</p>
+  </div>
+</form>
+ </div>
+</div>
+</div>
+
+
+<div class="fixed-bg">
+</div>
+
+</body>
+</html>
